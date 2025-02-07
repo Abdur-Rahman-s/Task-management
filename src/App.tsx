@@ -1,13 +1,20 @@
-import { useState } from 'react'
+
 import './App.css'
+import AddTask from './components/AddTask'
+import Goals from './components/Goals'
+import Navbar from './Reuse/Navbar'
+
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Navbar />
+      <section className='container mx-auto md:flex justify-center gap-12 mt-9' >
+
+        <Goals />
+        <AddTask />
+      </section>
     </>
   )
 }
