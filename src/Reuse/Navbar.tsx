@@ -1,6 +1,5 @@
 
 import Logo from '/public/Logo.svg'
-import { IoBagAdd } from "react-icons/io5";
 
 
 
